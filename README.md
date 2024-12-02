@@ -11,7 +11,7 @@ npm init -y
 npm install express express-graphql graphql
 npm install mongoose
 
-2. 바탕화면에 js파일 저장
+2. 바탕화면에 .js파일 4개 저장
 - ./graphql/Resolvers
 - ./graphql/schema
 - ./models/User
@@ -20,6 +20,9 @@ npm install mongoose
 3. Server 실행
 - cmd창에 명령어 입력
 node index.js
+* 서버가 성공적으로 연결되면 Server is running on http://localhost:5110/graphql 출력을 확인해야함
+
+4. Open http://localhost:5110/graphql
 
 
 
