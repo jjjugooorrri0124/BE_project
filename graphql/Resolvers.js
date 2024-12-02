@@ -6,10 +6,10 @@ const resolvers = {
   getExchangeRate: async ({ src, tgt }) => {
     try {
       const response = await axios.get(`https://api.exchangerate-api.com/v4/latest/${src}`);
-      const rate = response.data.rates[tgt]; // response -> response로 수정
+      const rate = response.data.rates[tgt]; 
       const date = response.data.date;
       
-      return {  // return 문이 try 블록 안에 있어야 함
+      return {  
         src: src,
         tgt: tgt,
         rate: rate,
