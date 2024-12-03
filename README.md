@@ -1,6 +1,5 @@
 # BE_project
 ## How to set and execute
-### Setting up the project
 
 1. Download and install
 - Node.js, MongoDB 다운로드
